@@ -1,6 +1,7 @@
 div {
     background-color: rgb(0, 0, 0);
-    margin: 40px;
+    margin: 60px;
+
     font-family:Rodondo;
     color: white;
     font-size: 25px;
@@ -29,17 +30,20 @@ h3 {
 
 .photo{
     border-color: white;
-    min-width: 400px;
-    max-width: 500px;
+    width:calc(25vw);
     border:12px ;
 }
-.photoLong{
-    border-color: white;
-    min-height: 400px;
-    max-height: 500px;
-    border:12px ;
-}
+
 .flexrow { 
     display: flex;
     flex-direction: row;
+}
+
+.banner {
+
+    width: calc(100vw);
+}
+html, .banner{
+    margin: 0;
+    padding: 0;
 }
