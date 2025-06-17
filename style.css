@@ -1,23 +1,42 @@
 div {
     background-color: rgb(0, 0, 0);
-    margin: 10px;
+    margin: 40px;
     font-family:Rodondo;
     color: white;
+    font-size: 25px;
 }
 
-.titleText {
+h1 {
     text-align: center;
-    size: 40px;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
 }
 
 @font-face {
   font-family: Rodondo;
   src: url(Rodondo.otf);
   font-weight: bold;
-  font-size: 50rem;
+
 }
 
 .photo{
-    width: 200px;
-    height: 200px;
+    border-color: white;
+    min-width: 400px;
+    max-width: 500px;
+    border:12px ;
+    
+    
+}
+
+.flexrow { 
+    display: flex;
+    flex-direction: row;
 }
