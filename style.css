@@ -32,10 +32,13 @@ h3 {
     min-width: 400px;
     max-width: 500px;
     border:12px ;
-    
-    
 }
-
+.photoLong{
+    border-color: white;
+    min-height: 400px;
+    max-height: 500px;
+    border:12px ;
+}
 .flexrow { 
     display: flex;
     flex-direction: row;
